@@ -1,0 +1,15 @@
+{
+  "name": "api-jogos",
+  "version": "1.0.0",
+  "description": "API de biblioteca pessoal de jogos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}     
+
+
