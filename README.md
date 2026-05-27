@@ -1,6 +1,6 @@
 🎮 API de Jogos
 
-Aplicação full stack desenvolvida na disciplina de Programação para Dispositivos Móveis.
+Aplicação desenvolvida na disciplina de Programação para Dispositivos Móveis.
 O projeto consiste em uma API em Node.js/Express para cadastro de jogos e avaliações,
 integrada a um front-end em React Native, com deploy realizado no Render.
 
