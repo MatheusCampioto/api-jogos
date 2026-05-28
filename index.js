@@ -6,24 +6,44 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Banco de dados
 let jogos = [
   {
     id: 1,
-    nome: "The Legend of Zelda",
+    nome: "Red Dead Redemption 2",
     tipo: "Aventura",
     nota: 10,
-    review: "Um clássico absoluto.",
+    review: "Obra prima absoluta. História emocionante e mundo incrível.",
   },
   {
     id: 2,
-    nome: "FIFA 23",
-    tipo: "Esporte",
-    nota: 7,
-    review: "Bom para jogar com amigos.",
+    nome: "God of War",
+    tipo: "Ação",
+    nota: 10,
+    review: "Kratos e Atreus numa jornada épica pela mitologia nórdica.",
+  },
+  {
+    id: 3,
+    nome: "Hollow Knight",
+    tipo: "Metroidvania",
+    nota: 9,
+    review: "Desafiador e lindo. Um dos melhores indies já feitos.",
+  },
+  {
+    id: 4,
+    nome: "Cyberpunk 2077",
+    tipo: "RPG",
+    nota: 9,
+    review: "Night City é viva e cheia de detalhes. História memorável.",
+  },
+  {
+    id: 5,
+    nome: "Hades",
+    tipo: "Roguelike",
+    nota: 9,
+    review: "Loop viciante e narrativa integrada ao gameplay. Genial.",
   },
 ];
-let proximoId = 3;
+let proximoId = 6;
 
 // POST /login
 app.post("/login", (req, res) => {
